@@ -1,3 +1,3 @@
-module github.com/dghubble/trie
+module gomodules.xyz/trie
 
 go 1.17

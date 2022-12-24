@@ -1,4 +1,4 @@
-# Trie [![GoDoc](https://pkg.go.dev/badge/github.com/dghubble/trie.svg)](https://pkg.go.dev/github.com/dghubble/trie) [![Workflow](https://github.com/dghubble/trie/actions/workflows/test.yaml/badge.svg)](https://github.com/dghubble/trie/actions/workflows/test.yaml?query=branch%3Amain) [![Coverage](https://gocover.io/_badge/github.com/dghubble/trie)](https://gocover.io/github.com/dghubble/trie) [![Sponsors](https://img.shields.io/github/sponsors/dghubble?logo=github)](https://github.com/sponsors/dghubble) [![Twitter](https://img.shields.io/badge/twitter-follow-1da1f2?logo=twitter)](https://twitter.com/dghubble)
+# Trie [![GoDoc](https://pkg.go.dev/badge/gomodules.xyz/trie.svg)](https://pkg.go.dev/gomodules.xyz/trie) [![Workflow](https://github.com/gomodules/trie/actions/workflows/test.yaml/badge.svg)](https://github.com/gomodules/trie/actions/workflows/test.yaml?query=branch%3Amain)
 
 Package `trie` implements rune-wise and path-wise [Tries](https://en.wikipedia.org/wiki/Trie) optimized for `Get` performance and to allocate 0 bytes of heap memory (i.e. garbage) per `Get`.
 
@@ -9,12 +9,12 @@ When Tries are chosen over maps, it is typically for their space efficiency. How
 ## Install
 
 ```
-$ go get github.com/dghubble/trie
+$ go get gomodules.xyz/trie
 ```
 
 ## Documentation
 
-Read [Godoc](https://godoc.org/github.com/dghubble/trie)
+Read [Godoc](https://godoc.org/gomodules.xyz/trie)
 
 ## Performance
 
